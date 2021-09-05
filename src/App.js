@@ -5,7 +5,7 @@ import { FcCollapse} from "react-icons/fc";
 import ReactAudioPlayer from 'react-audio-player';
 import data from './data';
 function App() {
-  const [people, setPeople] = useState(data);
+  const [people] = useState(data);
   const [index, setIndex] = React.useState(0);
 
   useEffect(() => {
